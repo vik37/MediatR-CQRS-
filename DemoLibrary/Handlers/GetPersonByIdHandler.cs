@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DemoLibrary.Hadlers
+namespace DemoLibrary.Handlers
 {
     public class GetPersonByIdHandler : IRequestHandler<GetPersonByIdQuery, PersonModel>
     {

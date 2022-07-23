@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DemoLibrary.Hadlers
+namespace DemoLibrary.Handlers
 {
     public class GetPersonListHandler : IRequestHandler<GetPersoListQuiery, List<PersonModel>>
     {
